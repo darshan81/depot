@@ -43,4 +43,5 @@ Product.create!(title: 'Rails Test Prescriptions',
       </p>},
   image_url: 'rtp.jpg',
   price: 34.95)
+  config.action_controller.perform_caching = true
 
